@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+nav{
+    width: 100%;
+    
+    margin-bottom: 15px;
+    justify-content: flex-end;
+   
+}
+
+.title{
+    margin-right: 20px;
+    white-space: nowrap;
+    color: white;
+    font-weight: 700;
+}
+
+ul {
+    width: 100%;
+    list-style-type: none;
+    margin: 0;
+    display: flex;
+    padding: 0;
+    overflow: hidden;
+    background-color: #1d1b1b;
+    justify-content: flex-end;
+    
+  }
+  
+  
+  
+  li a {
+    display: flex;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    justify-content: flex-end;
+    margin-right: 20px;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: #111;
+  }
+  
+  /* Style the body */
+  body {
+    margin:0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: #e6e6e6;
+  }
+
+  /* Style the header */
+  header {
+    
+  }
+
+  /* Style the main content */
+  .main-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width:60%;
+    margin:auto;
+    margin-top: 20px;
+  }
+
+  /* Style the left column */
+  .left-column {
+    width: 30%;
+    padding: 0 20px;
+  }
+
+  /* Style the right column */
+  .right-column {
+    width: 70%;
+    padding: 0 20px;
+  }
+
+  /* Style the articles */
+  article {
+    background-color: white;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+  }
+
+  /* Style the article image */
+  article img {
+    width: 100%;
+    height: auto;
+  }
+
+  /* Style the article content */
+  article .article-content {
+    padding: 20px;
+  }
+
+  /* Style the article title */
+  article h3 {
+    margin: 0;
+  }
+
+  /* Style the article date */
+  article .date {
+    font-style: italic;
+    color: #ccc;
+  }
+
+  /* Style the article description */
+  article p {
+    margin: 20px 0;
+  }
+
+  /* Style the footer */
+  footer {
+    background-color: #ccc;
+    color: black;
+    text-align: center;
+    padding: 10px;
+  }
+
+  /* Add some hover effects */
+  article:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  }
